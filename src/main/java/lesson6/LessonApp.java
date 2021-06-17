@@ -1,31 +1,28 @@
 package lesson6;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 
 public class LessonApp {
-    public static void main(String[] args) {
-        int[] arr = newArr(new int[]{1, 2, 44, 44, 2, 3, 44, 1, 7});
-    }
 
-    public static int[] newArr(int[] arr) {
-
+    public int[] newArr(int[] arr) {
         int position = position(arr);
-
-        return Arrays.stream(arr).skip(position + 1).toArray();
+        return Arrays.stream(arr).skip(position).toArray();
     }
 
-    public static int position(int[] arr) {
-        int i=0;
-        for (int i1 : arr) {
-            if (i1 == 4) {
-                i = i1;
-                break;
+    public int position(int[] arr) throws RuntimeException {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == 4) {
+                return i + 1;
             }
         }
-        if(i == 0) {
-            throw new RuntimeException();
-        }
-        return 0;
+        throw new RuntimeException();
+    }
+
+    public boolean checkArr(int[] arr) {
+        return Arrays.stream(arr).filter(e -> (e == 1 || e == 4)).toArray().length > 0;
     }
 
 }
