@@ -18,6 +18,7 @@ public class LessonAppTest {
         List<Arguments> out = new ArrayList<>();
         out.add(Arguments.arguments(new int[]{1, 2, 4, 4, 2, 3, 4, 1, 7}, 7));
         out.add(Arguments.arguments(new int[]{1, 2, 4, 4, 2, 3, 44, 1, 7}, 4));
+        out.add(Arguments.arguments(null, 0));
         return out.stream();
     }
 
@@ -49,5 +50,10 @@ public class LessonAppTest {
     @MethodSource("dataForCheckArr")
     public void testCheckArr(int[] arr) {
         Assertions.assertTrue(lessonApp.checkArr(arr));
+    }
+
+    @Test
+    public void testCheckArrNull() {
+        Assertions.assertEquals(false, lessonApp.checkArr(null));
     }
 }

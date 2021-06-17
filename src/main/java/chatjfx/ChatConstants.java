@@ -1,4 +1,5 @@
 package chatjfx;
+import java.util.ArrayList;
 
 public class ChatConstants {
     public static final String HOST = "localhost";
