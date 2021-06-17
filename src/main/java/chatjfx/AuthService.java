@@ -1,6 +1,5 @@
 package chatjfx;
 
-import java.sql.SQLException;
 import java.util.Optional;
 
 public interface AuthService {

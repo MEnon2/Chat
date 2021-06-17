@@ -1,5 +1,6 @@
 package chatjfx;
 
+import java.util.ArrayList;
 import java.sql.SQLException;
 
 public class LessonApp {

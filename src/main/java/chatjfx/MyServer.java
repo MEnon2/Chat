@@ -23,7 +23,7 @@ public class MyServer {
 
     public MyServer() {
         try (ServerSocket serverSocket = new ServerSocket(ChatConstants.PORT)) {
-            logger.info("Server is running");
+            logger.info("Сервер запущен");
 
             authService = new DbAuthService(logger);
             authService.start();
