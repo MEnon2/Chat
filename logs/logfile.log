@@ -1,0 +1,47 @@
+INFO  2021-06-17 18:15:12 [main] chatjfx.MyServer (MyServer.java:32) - Сервер ожидает подключение
+INFO  2021-06-17 18:28:34 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 18:28:34 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:29:26 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 18:29:26 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 18:29:26 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:39:04 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 18:39:04 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 18:39:04 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:49:08 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 18:49:08 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 18:49:08 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:50:13 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 18:50:13 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 18:50:13 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:50:39 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 18:50:39 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 18:50:39 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:50:54 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:56) - Authentification completed successfully
+INFO  2021-06-17 18:57:22 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 18:57:22 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:57:22 [pool-4-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 18:57:58 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 18:57:58 [pool-6-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 18:57:58 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:58:43 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 18:58:44 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 18:58:44 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 18:58:49 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 18:58:49 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 18:58:49 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 19:02:21 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 19:02:21 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 19:02:21 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 19:02:28 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 19:02:28 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+INFO  2021-06-17 19:02:28 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 19:13:51 [main] chatjfx.MyServer (MyServer.java:26) - Server is running
+INFO  2021-06-17 19:13:51 [main] chatjfx.DbAuthService (DbAuthService.java:42) - Authentification service STARTED
+INFO  2021-06-17 19:13:51 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 19:14:01 [main] chatjfx.MyServer (MyServer.java:36) - Соединение с клиентом установленно
+INFO  2021-06-17 19:14:01 [main] chatjfx.MyServer (MyServer.java:33) - Сервер ожидает подключение
+INFO  2021-06-17 19:14:01 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:50) - Start of waiting authentification (2 minutes)
+DEBUG 2021-06-17 19:14:07 [pool-3-thread-1] chatjfx.ClientHandler (ClientHandler.java:100) - Неверные логин/пароль
+DEBUG 2021-06-17 19:14:25 [pool-3-thread-1] chatjfx.ClientHandler (ClientHandler.java:112) - Marsel зашел в чат
+INFO  2021-06-17 19:14:26 [pool-2-thread-1] chatjfx.ClientHandler (ClientHandler.java:56) - Authentification completed successfully
+DEBUG 2021-06-17 19:14:51 [pool-3-thread-1] chatjfx.ClientHandler (ClientHandler.java:194) - Marsel вышел из чата
