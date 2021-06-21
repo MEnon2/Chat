@@ -25,8 +25,10 @@ public class LessonAppTest {
     private static Stream<Arguments> dataForCheckArr() {
         List<Arguments> out = new ArrayList<>();
         out.add(Arguments.arguments(new int[]{1, 2, 4, 4}));
-        out.add(Arguments.arguments(new int[]{2, 2, 3}));
-        out.add(Arguments.arguments(new int[]{2, 2, 1}));
+        out.add(Arguments.arguments(new int[]{1, 1, 4}));
+        out.add(Arguments.arguments(new int[]{4, 4, 4}));
+        out.add(Arguments.arguments(new int[]{1, 1, 1}));
+        out.add(Arguments.arguments(new int[]{1, 4, 1, 4, 4}));
         return out.stream();
     }
 

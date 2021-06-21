@@ -28,7 +28,8 @@ public class LessonApp {
         if (arr == null) {
             return false;
         }
-        return Arrays.stream(arr).filter(e -> (e == 1 || e == 4)).toArray().length > 0;
+        return Arrays.stream(arr).allMatch(e -> (e == 1 || e == 4)) && Arrays.stream(arr).filter(e -> e == 1).findFirst().isPresent() && Arrays.stream(arr).filter(e -> e == 4).findFirst().isPresent();
+
     }
 
 }
